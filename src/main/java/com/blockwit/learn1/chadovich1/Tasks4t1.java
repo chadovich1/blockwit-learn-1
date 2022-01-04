@@ -15,13 +15,7 @@ public class Tasks4t1 {
         System.out.println("Введите ваше имя");
         String uourName = in.nextLine();
 
-        int  uourAge ;
-        yearbirth = in.nextDouble();
 
-        String Name = uourName;
-        int Year = 2021;
-
-        int uourAge = (Year - yearbirth );
 
 
 
