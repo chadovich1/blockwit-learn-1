@@ -15,22 +15,17 @@ public class Tasks4t1 {
         int year = 2020;
         int yourAge = year - yearbirth;
         System.out.println("Введите ваше имя");
-        Scanner a = new Scanner(System.in);
-        String name  = a.nextLine();
+        Scanner str = new Scanner(System.in);
+        String name  = str.nextLine();
         System.out.println("Вас зовут  " + name + "  Вам  " + yourAge + "  лет." );
 
-        System.out.println();
-
-
-
-
-       in.close();
+        in.close();
 
     }
-    public static void uourAge ( ) {
+   /* public static void uourAge ( ) {
 
 
-    }
+    }*/
 
 
 }
