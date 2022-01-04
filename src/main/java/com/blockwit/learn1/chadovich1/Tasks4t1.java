@@ -11,15 +11,21 @@ public class Tasks4t1 {
     public static void main (String[]  args )   {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите ваш год рождения");
-        double yearbirth = in.nextDouble();
+        int yearbirth = in.nextInt();
+        int year = 2020;
+        int yourAge = year - yearbirth;
         System.out.println("Введите ваше имя");
-        String uourName = in.nextLine();
+        Scanner a = new Scanner(System.in);
+        String name  = a.nextLine();
+        System.out.println("Вас зовут  " + name + "  Вам  " + yourAge + "  лет." );
+
+        System.out.println();
 
 
 
 
+       in.close();
 
-        in.close();
     }
     public static void uourAge ( ) {
 
