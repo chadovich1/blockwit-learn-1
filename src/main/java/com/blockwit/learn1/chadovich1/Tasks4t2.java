@@ -8,24 +8,18 @@ public class Tasks4t2 {
  А затем выводит все эти имена.
   */
 
-    public static void main (String[]  args )   {
+    public static void main (String[]  args ) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Введите первое из  пяти имен ");
-        String name1 = in.nextLine();
-        String name2 = in.nextLine();
-        String name3 = in.nextLine();
-        String name4 = in.nextLine();
-        System.out.println("Введите пятое имя ");
-        String name5 = in.nextLine();
-
-        System.out.println( "Выводим список имен - "+ name1 + " " + name2 + " " + name3 + " " + name4 + " " + name5 );
+        String[] name = new String[3];
+        for (int i = 0; i < name.length; i++) {
+            System.out.println("Введитe " + (i + 1) + " имя");
+            name[i] = in.nextLine();
+        }
+        for (int i = 0; i < name.length; i++) {
+            System.out.println(name [i]);
+        }
 
         in.close();
-
-    }
-    public static void uourAge ( ) {
-
-
     }
 
 
