@@ -22,10 +22,10 @@ public class Tasks4t1 {
         in.close();
 
     }
-   /* public static void uourAge ( ) {
 
 
-    }*/
+
+   /* public static void uourAge ( ) {  }*/
 
 
 }
