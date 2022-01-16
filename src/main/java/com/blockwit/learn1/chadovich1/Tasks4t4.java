@@ -24,7 +24,7 @@ public class Tasks4t4 {
 
         }
         System.out.println(" Список друзей в обратном порядке " );
-        for (int i = names.length -1; i < names.length ; i--) {
+        for (int i = names.length -1; i >=0 ; i--) {
 
             System.out.println( names [i]);
 
