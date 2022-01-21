@@ -12,7 +12,7 @@ public class Tasks4t1 {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите ваш год рождения");
         int yearbirth = in.nextInt();
-        int year = 2020;
+        int year = 2021;
         int yourAge = year - yearbirth;
         System.out.println("Введите ваше имя");
         Scanner str = new Scanner(System.in);
@@ -25,7 +25,6 @@ public class Tasks4t1 {
 
 
 
-   /* public static void uourAge ( ) {  }*/
 
 
 }

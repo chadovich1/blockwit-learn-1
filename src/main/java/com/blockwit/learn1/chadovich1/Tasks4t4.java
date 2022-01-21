@@ -20,22 +20,12 @@ public class Tasks4t4 {
             System.out.println("  Введите их имена " );
             Scanner inn = new Scanner(System.in);
             names [i] = inn.nextLine();
-
-
         }
         System.out.println(" Список друзей в обратном порядке " );
         for (int i = names.length -1; i >=0 ; i--) {
 
             System.out.println( names [i]);
-
         }
-
-
         in.close();
-// но ругается в конце и приходится вписывать это /Scanner inn = new Scanner(System.in);/ почемуто (
-
-
-        }
-
-
+    }
 }
