@@ -13,25 +13,25 @@ public class Taskstu2 {
   */
 
         public static void main(String[] args) {
-                Scanner in = new Scanner(System.in);
-                System.out.println("Введите четыре числа ");
-                int[] num = new int[4];
-                for (int i = 0; i < num.length; i++) {
-                        num[i] = in.nextInt();
-                }
-                if (num[0] < num[num.length - 1]) {
-                        int ind = num[0];
-                        num[0] = num[num.length - 1];
-                        num[num.length - 1] = ind;
-                }
-                for (int i = 0; i < num.length; i++){
-                                System.out.println(num[i]);
+                Helper helper = new Helper();
+                int[] array = {12, 7, 89, -4, 8, 9};
 
+                helper.printIntArray(array);
 
+                for(int i = 0; i < array.length; i++) {
+                        for (int j = i + 1; j < array.length; j++) {
+                                if (array[i] > array[j]) {                    // Отсортировать его в порядке возрастания.
+                                        int temp = array[i];
+                                        array[i] = array[j];
+                                        array[j] = temp;
+                                }
+                        }
                 }
-                in.close();
+                helper.printIntArray(array);
         }
+
 }
+
 
 
 
