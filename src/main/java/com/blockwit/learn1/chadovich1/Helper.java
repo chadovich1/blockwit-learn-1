@@ -11,15 +11,3 @@ public class Helper {
 }
 
 
-/*   Scanner in = new Scanner(System.in);
-          System.out.println("Введите четыре числа ");
-        int[] printIntArray = new int[4];
-        int sum = 0;
-        for (int i = 0; i < printIntArray.length; i++) {
-            printIntArray[i] = in.nextInt();
-}
-
-      //  public static int printIntArray ( int x, int y){
-
-           // return x + y;
-        }*/

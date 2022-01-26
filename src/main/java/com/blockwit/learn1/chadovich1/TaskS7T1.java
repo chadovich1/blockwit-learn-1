@@ -14,18 +14,29 @@ public class TaskS7T1 {
 
         public static void main(String[] args) {
                 Helper helper = new Helper();
-                int[] array = {12, 7, 89, -4, 8, 9};
-                helper.printIntArray(array);
-                Utils sort = new Utils();
-                sort.sort(array);                      // Отсортировать его в порядке возрастания.
-                helper.printIntArray(array);
+                int[] array1 = {9, 1, 5, 6, 8};
+                int[] array2 = { 7, 3, 1};
+            System.out.println("array1");
+                helper.printIntArray(array1);
+            System.out.println("array2");
+                helper.printIntArray(array2);
+                int[] array3 = new int[array1.length + array2.length];
 
-
-
-
+            int count=0;
+            for(int i=0;i<array1.length;i++){
+                array3[i]=array1[i];
+                count++;
+            }
+            for(int i=0;i< array2.length;i++){
+                array3 [count++]=array2[i];
+            }
+            System.out.println("array3");
+            helper.printIntArray(array3);
         }
 
 }
+
+
 
 
 
