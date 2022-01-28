@@ -21,10 +21,10 @@ public class TaskS7T4 {
           }
 
           public int getSize() {   //Написать метод getSize который возращает длину массива в поле array.
-                  return array.length;
+              return array.length;
           }
           public int get(int i) {   // Написать метод get, который принимает индекс
-                  return array[i];  //  и возращает элемент из массива array по указанному индексу.
+              return array[i];  //  и возращает элемент из массива array по указанному индексу.
           }
 
   }
