@@ -1,6 +1,8 @@
-package com.blockwit.learn1.chadovich1;
+package com.blockwit.learn1.chadovich1.S7T;
 
 //import java.util.Arrays;
+
+import com.blockwit.learn1.chadovich1.Helper;
 
 public class TaskS7T3 {
   /* TaskS7T3

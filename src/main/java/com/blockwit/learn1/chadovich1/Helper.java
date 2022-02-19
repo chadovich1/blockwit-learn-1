@@ -8,6 +8,19 @@ public class Helper {
             System.out.println(intArray[i]);
         }
     }
+
+
+    public void printInList(int[] num) {
+        for (int i = 0; i < num.length; i++) {
+            System.out.print(num[i] + ", ");
+        }
+
+    }
 }
 
 
+
+//  объявление хелпера в коде. == * Объект или экземпляр класса*
+//Helper helper = new Helper();
+
+// helper.printIntArray( имя нужного масива);

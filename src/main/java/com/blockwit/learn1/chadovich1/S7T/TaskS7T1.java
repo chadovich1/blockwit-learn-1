@@ -1,6 +1,7 @@
-package com.blockwit.learn1.chadovich1;
+package com.blockwit.learn1.chadovich1.S7T;
 
-//import java.util.Arrays;
+
+import com.blockwit.learn1.chadovich1.Helper;
 
 public class TaskS7T1 {
   /* TaskS7T1
@@ -20,6 +21,7 @@ public class TaskS7T1 {
                 helper.printIntArray(array1);
             System.out.println("array2");
                 helper.printIntArray(array2);
+
                 int[] array3 = new int[array1.length + array2.length];
 
             int count=0;
